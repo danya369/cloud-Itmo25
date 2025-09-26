@@ -1,5 +1,5 @@
 # Облачные и сетевые технологии 2025
 ### Авдиенко Данила (464919)
 
-- [x] [Лабораторная работа №1](https://github.com/danya369/cloud-Itmo25/blob/main/lab1/lab1_report.md)
+- [x] [Лабораторная работа №1](https://github.com/danya369/cloud-Itmo25/blob/main/lab1/README.md)
 - [ ] [Лабораторная работа №2](#)
