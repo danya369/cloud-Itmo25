@@ -1,0 +1,12 @@
+services: # Указывает список сервисов, которыми мы будем оперировать при помощи этого докер компоуз
+  nginx:
+    image: nginx:alpine
+    ports:
+    - "80:80" # HOST_PORT:CONTAINER_PORT
+    - "443:443" 
+    volumes: # Тома. С помощью volumes мы подключаем сторонние файлы, которые и хотим использовать к nginx(серверу)
+    - ./nginx/nginx.conf:/etc/nginx/nginx.conf # использует наш кфг
+    - ./site1:/usr/share/nginx/html/site1 # файлы сайтов
+    - ./site2:/usr/share/nginx/html/site2
+    - ./ssl:/etc/nginx/ssl # файлы cet & key
+    
