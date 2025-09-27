@@ -135,6 +135,7 @@ docker compose up -d
 ![site1 Предупреждение о сертификате](../lab1/images/site1W.png)
 ![site1](../lab1/images/site1.png)
 ![site2](../lab1/images/site2.png)
+![dockerTerminal](../lab1/images/docker.png)
 - Работает редирект с HTTP → HTTPS.  
 - Настроен alias для примера сопоставления путей.  
 - Проект упакован в контейнер с помощью Docker Compose.  
